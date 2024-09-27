@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     ● You Complete this process and replace this api key with Your api key.
 
   3. MovieCard.jsx\
-    ● This File can work Display Multiple time of moviecard at one time but you need this code\
+    ● This File can work Display Multiple time of moviecard at one time but you need this code.
       ```
       import React from "react";
       const MovieCrad = ({MOVIE}) => {
