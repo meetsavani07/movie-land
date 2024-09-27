@@ -61,6 +61,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+
+
+
 # In This code
   1. Hooks --> useState, useEffect\
     ● React Hooks provide functional components with the ability to use states and manage side effects. They were first introduced in React 16.8, and allow           developers to hook into the state and other React features without having to write a class. They provide a cleaner and more concise way to handle state         and side effects in React applications.
@@ -103,6 +106,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         <path d="M17.9062 33.0469C26.2682 33.0469 33.0469 26.2682 33.0469 17.9062C33.0469 9.54431 26.2682 2.76562 17.9062 2.76562C9.54431 2.76562 2.76562                  9.54431 2.76562 17.9062C2.76562 26.2682 9.54431 33.0469 17.9062 33.0469Z" stroke="#D88769" stroke-width="4.5" stroke-linecap="round" stroke-                    linejoin="round"/>
       </svg>
       ```
+
+
+
 
 
   # Final Results
