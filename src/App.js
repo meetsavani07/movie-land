@@ -58,7 +58,6 @@ const App = () => {
                                     <h3>{Movie.Title}</h3>
                                 </div>
                             </div> */}
-                            {/* <MovieCrad Movie={Movie}/> */}
                             {
                                 Movies.map((MOVIE)=> (
                                     <MovieCrad MOVIE={MOVIE}/>
