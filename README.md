@@ -62,11 +62,48 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # In This code
-  1. Hooks --> useState, useEffect
-    ● React Hooks provide functional components with the ability to use states and manage side effects. They were first introduced in React 16.8, and allow           developers to hook into the state and other React features without having to write a class. They provide a cleaner and more concise way to handle state         and side effects in React applications
+  1. Hooks --> useState, useEffect\
+    ● React Hooks provide functional components with the ability to use states and manage side effects. They were first introduced in React 16.8, and allow           developers to hook into the state and other React features without having to write a class. They provide a cleaner and more concise way to handle state         and side effects in React applications.\
 
-  2. API Key --> "http://www.omdbapi.com?apikey=Your API Key"
-    ● Hey, You Can check this Website http://www.omdbapi.com] (http://www.omdbapi.com) and login, see in menu bar API Key click their choice free option and          fill your information, wait few second, and check your mail account.
-    ● You Complete this process and replace this api key with Your api key.
+  2. API Key --> "http://www.omdbapi.com?apikey=Your-API-Key"\
+    ● Hey, You Can check this Website http://www.omdbapi.com] (http://www.omdbapi.com) and login, see in menu bar API Key click their choice free option and          fill your information, wait few second, and check your mail account.\
+    ● You Complete this process and replace this api key with Your api key.\
 
-  3. 
+  3. MovieCard.jsx
+    ● This File can work Display Multiple time of moviecard at one time but you need this code
+      ```
+      import React from "react";
+      const MovieCrad = ({MOVIE}) => {
+        return(
+            <div className="movie">
+                <div>
+                    <p>
+                        {MOVIE.Year}
+                    </p>
+                </div>
+                <div>
+                    <img src={MOVIE.Poster !== 'N/A' ? MOVIE.Poster : 'https://via.placeholder.com/400'} alt={MOVIE.Title}/>
+                </div>
+                <div>
+                    <span>{MOVIE.Type}</span>
+                    <h3>{MOVIE.Title}</h3>
+                </div>
+            </div>
+        )
+      }
+      export default MovieCrad;
+      ```
+  4. Search.svg
+    ● This file can work Display only Search Bar.
+    ● There is a problem in this search bar, you search for any movie you do, keyboard Enter Key not work perfectly, but you can use given search icon in             search bar.
+    ● This is Svg Code
+      ```
+      <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.8594 29.8594L39.4219 39.4219" stroke="#D88769" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.9062 33.0469C26.2682 33.0469 33.0469 26.2682 33.0469 17.9062C33.0469 9.54431 26.2682 2.76562 17.9062 2.76562C9.54431 2.76562 2.76562                  9.54431 2.76562 17.9062C2.76562 26.2682 9.54431 33.0469 17.9062 33.0469Z" stroke="#D88769" stroke-width="4.5" stroke-linecap="round" stroke-                    linejoin="round"/>
+      </svg>
+      ```
+
+
+  # Final Results
+    For Desktop
