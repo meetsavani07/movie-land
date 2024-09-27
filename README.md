@@ -69,8 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     ● Hey, You Can check this Website http://www.omdbapi.com] (http://www.omdbapi.com) and login, see in menu bar API Key click their choice free option and          fill your information, wait few second, and check your mail account.\
     ● You Complete this process and replace this api key with Your api key.\
 
-  3. MovieCard.jsx
-    ● This File can work Display Multiple time of moviecard at one time but you need this code
+  3. MovieCard.jsx\
+    ● This File can work Display Multiple time of moviecard at one time but you need this code\
       ```
       import React from "react";
       const MovieCrad = ({MOVIE}) => {
@@ -94,9 +94,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
       export default MovieCrad;
       ```
   4. Search.svg
-    ● This file can work Display only Search Bar.
-    ● There is a problem in this search bar, you search for any movie you do, keyboard Enter Key not work perfectly, but you can use given search icon in             search bar.
-    ● This is Svg Code
+    ● This file can work Display only Search Bar.\
+    ● There is a problem in this search bar, you search for any movie you do, keyboard Enter Key not work perfectly, but you can use given search icon in             search bar.\
+    ● This is Svg Code\
       ```
       <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M29.8594 29.8594L39.4219 39.4219" stroke="#D88769" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -106,4 +106,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
   # Final Results
-    For Desktop
+  ## For Desktop
+  ![Desktop](https://github.com/user-attachments/assets/360dd0b4-60d1-4b7c-a29a-e01653daba80)
+
+  ## For Mobilwe
+  ![Mobile](https://github.com/user-attachments/assets/71f48438-2255-46c0-a5e2-f8f5f3e25cd5)
