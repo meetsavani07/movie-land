@@ -96,7 +96,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
       }
       export default MovieCrad;
       ```
-  4. Search.svg
+  4. Search.svg\
     ● This file can work Display only Search Bar.\
     ● There is a problem in this search bar, you search for any movie you do, keyboard Enter Key not work perfectly, but you can use given search icon in search bar.\
     ● This is Svg Code
