@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Movie Land
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -31,14 +31,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +60,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# In This code
+  ## 1. Hooks --> useState, useEffect
+    ● React Hooks provide functional components with the ability to use states and manage side effects. They were first introduced in React 16.8, and allow           developers to hook into the state and other React features without having to write a class. They provide a cleaner and more concise way to handle state         and side effects in React applications
+
+  2. API Key --> "http://www.omdbapi.com?apikey=Your API Key"
+    ● Hey, You Can check this Website http://www.omdbapi.com] (http://www.omdbapi.com) and login, see in menu bar API Key click their choice free option and          fill your information, wait few second, and check your mail account.
+    ● You Complete this process and replace this api key with Your api key.
+
+  3. 
