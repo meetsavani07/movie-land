@@ -69,7 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     ● React Hooks provide functional components with the ability to use states and manage side effects. They were first introduced in React 16.8, and allow           developers to hook into the state and other React features without having to write a class. They provide a cleaner and more concise way to handle state         and side effects in React applications.
 
   2. API Key --> "http://www.omdbapi.com?apikey=Your-API-Key" \
-    ● Hey, You Can check this Website http://www.omdbapi.com] (http://www.omdbapi.com) and login, see in menu bar API Key click their choice free option and          fill your information, wait few second, and check your mail account.\
+    ● Hey, You Can check this Website [http://www.omdbapi.com] (http://www.omdbapi.com) and login, see in menu bar API Key click their choice free option and          fill your information, wait few second, and check your mail account.\
     ● You Complete this process and replace this api key with Your api key.
 
   3. MovieCard.jsx\
